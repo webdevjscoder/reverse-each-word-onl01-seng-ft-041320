@@ -1,14 +1,3 @@
-=begin
-def reverse_each_word(string)
-  array = [].join(' ')
-  string.split(' ')
-  string.each do |word|
-    array << "#{word.reverse}"
-  end
-  array
-end
-=end
-
 def reverse_each_word(string)
   array = string.split(' ')
   empty_array = []
